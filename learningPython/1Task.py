@@ -18,3 +18,11 @@ while(appartment > 0):
    appartment = appartment - 20
    pod += 1   
 
+# correct variant of the code above 
+
+appartment_correct = int(input("again"))
+
+entrance = (appartment_correct - 1) // 20 + 1
+floar = (appartment_correct - 1) % 20 // 4 + 1
+print(floar)
+print(entrance)
